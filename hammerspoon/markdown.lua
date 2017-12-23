@@ -104,7 +104,7 @@ markdownMode:bindWithAutomaticExit('c', function()
 end)
 
 -- Use Control+m to toggle Markdown Mode
-hs.hotkey.bind({'ctrl'}, 'm', function()
+hs.hotkey.bind({'ctrl', 'alt', 'cmd'}, 'm', function()
   markdownMode:enter()
 end)
 markdownMode:bind({'ctrl'}, 'm', function()
